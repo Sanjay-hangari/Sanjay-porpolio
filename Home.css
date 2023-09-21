@@ -409,6 +409,15 @@ body{
     box-shadow: 0 0 20px white;
 }
 @media screen and (max-width:900px){
+    .header{
+        justify-content: start;
+    }
+    .topnav a{
+        font-size: 10px;
+    }
+    .topnav a:hover{
+        font-size: 15px;
+    }
     body{
         background-color: rgb(19, 18, 79);
     }
@@ -425,11 +434,22 @@ body{
     }
     .home-content{
         left: 0;
-        top: 160px;
+        top: 23%;
+        padding-left: 13%;
     }
     .home-content h3{
         font-size: 20px;
         font-weight: 600;
+    }
+    .home-content a{
+        width: 30px;
+        height: 30px;
+    }
+    .home-content i{
+        font-size: 15px;
+    }
+    .home-content h4{
+        font-size: 11px;
     }
     .home-content h1{
         font-size: 30px;
@@ -441,6 +461,7 @@ body{
     }
     .about{
         flex-flow: column;
+        height: 110vh;
     }
     .para{
         width: 100%;
@@ -456,31 +477,31 @@ body{
     .about-img{
         height: 180px;
         width: 180px;
-        top: 170px;
-        left: -50px;
+        top: 40%;
+        right: 16%;
     }
     .line{
         margin-left: 20px;
     }
     .resume{
-        left: 150px;
+        left: 39%;
         font-size: 10px;
         padding: 5px;
-        bottom: 60px;
+        bottom: 10%;
 
     }
     .skill{
-        height: 110vh;
+        height: 125vh;
     }
     .skill-content h1{
         font-size: 30px;
     }
     .technical{
-        left: 45px;
+        left: 10%;
     }
     .other{
-        top: 100px;
-        left: 70px;
+        top: 14%;
+        left: 17%;
     }
     .project-content h2{
         font-size: 15px;
@@ -489,21 +510,30 @@ body{
         font-size: 8;
     }
     .project{
-        height: 150vh;
+        height: 180vh;
     }
     .car{
-        left: 0;
+        left: 14%;
     }
     .news{
-        left: 0;
-        top: 100px;
+        left: 14%;
+        top: 10%;
     }
     .textu{
-        left: -1;
-        top:110px;
+        right: 13%;
+        top:14%;
     }
     .contect-content form{
-        margin-left: 0;
+        margin-left: 15%;
+    }
+    .contect-content input{
+        width: 200px;
+    }
+    .contect-content textarea{
+        width: 200px;
+    }
+    .contect-content button{
+        margin-left: 30px;
     }
 }
 
@@ -549,5 +579,3 @@ body{
         opacity: 1;
     }
 }
-
-
